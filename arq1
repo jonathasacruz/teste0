@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class principal {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		Pessoa j = new Pessoa();
+		System.out.println(j.getPessoa());
+		
+		System.out.println("______________________________");
+		
+		Funcionario jFunc = new Funcionario("Jônathas","00000");
+		System.out.println(jFunc.getPessoa());
+
+	
+	}
+
+}
